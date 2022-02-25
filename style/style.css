@@ -1,0 +1,156 @@
+@import "./fonts.css";
+/* Basic configuration */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* Basic configuration */
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+.authorization .col-6{
+    position: relative;
+}
+/* Authorization component */
+.authorization{
+    height: 100vh;
+}
+.authorization_scenery{
+    height: 100vh;
+    background: url("../images/scenery.png") no-repeat center/cover;
+}
+.authorization_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1A202C;
+    margin: 22px 0 5px;
+}
+.authorization_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2D3748;
+}
+.authorization_shape{
+    display: block;
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+}
+.authorization_label{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+#password::placeholder{
+    color: #000000;
+}
+.authorization_input{
+    margin: 11px 0;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    color: #2D3748;
+    padding: 0 20px;
+}
+.authorization_input::placeholder{
+    color: #2D3748;
+}
+.authorization_form .d-flex{
+    margin: 17px 0 12px;
+}
+.authorization_remember{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D3748;
+    margin-left: 11px;
+}
+.authorization_forgot{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2C5282;
+}
+.authorization_login{
+    margin-top: 15px;
+    background: #04C45C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: .3s
+}
+.authorization_login:hover{
+     background: #04c45cd4;
+}
+.authorization_signin{
+    margin-top: 15px;
+    background: #2D3748;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.authorization_signin:hover{
+    background: #2d4748db;
+}
+.authorization_signin svg{
+    margin-right: 11px;
+}
+.authorization_register{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    width: 274px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #616161;
+}
+.authorization_join{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.17px;
+    color: #2d6cd0;
+}
+
+/* Authorization component */
